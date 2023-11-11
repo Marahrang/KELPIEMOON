@@ -1,0 +1,46 @@
+body{
+    background-color: #e1f4ef;
+    color: #10403B;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+}
+h1{
+    color: #127369;
+    align-items: center;
+}
+h3{
+    color: #637371;
+}
+
+a{
+    color: #8AA6A3;
+}
+img{
+    width: 30%;
+    
+}
+.Logofin{
+    width: 40%;
+}
+.Logo{
+    width: 500px;
+    box-shadow: 10px 9px 50px rgb(189, 101, 101);
+}
+.slider{
+    aspect-ratio: 10/16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+    box-shadow: opx 0px 30px #000;
+}
